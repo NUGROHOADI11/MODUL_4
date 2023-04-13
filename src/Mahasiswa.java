@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Mahasiswa {
     String nama, kelas, matkulPraktikum;
     int nim;
-
     
     public Mahasiswa(String nm, String kl, String mat, int ni) {
         nama = nm;
@@ -12,7 +11,6 @@ public class Mahasiswa {
         matkulPraktikum = mat;
         nim = ni;
     }
-
 
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
